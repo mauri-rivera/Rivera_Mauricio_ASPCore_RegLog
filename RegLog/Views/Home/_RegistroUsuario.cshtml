@@ -1,0 +1,47 @@
+@model User
+
+<form asp-controller="Home" asp-action="RegistroUsuario" method="POST">
+    <div class="formulario">
+        <h2>Register</h2>
+        <div class="cuadroFormularioRegistro">
+            <div class="cuadroTexto">
+                <div class="campoTexto">
+                    <label asp-for="FirstName">First Name:</label>
+                    <input asp-for="FirstName">
+                </div>
+                <span asp-validation-for="FirstName"></span>
+            </div>
+            <div class="cuadroTexto">
+                <div class="campoTexto">
+                    <label asp-for="LastName">Last Name:</label>
+                    <input asp-for="LastName">
+                </div>
+                <span asp-validation-for="LastName"></span>
+            </div>
+            <div class="cuadroTexto">
+                <div class="campoTexto">
+                    <label asp-for="Email">Email:</label>
+                    <input asp-for="Email">
+                </div>
+                <span asp-validation-for="Email"></span>
+            </div>
+            <div class="cuadroTexto">
+                <div class="campoTexto">
+                    <label asp-for="Password">Password:</label>
+                    <input asp-for="Password">
+                </div>
+                <span asp-validation-for="Password"></span>
+            </div>
+            <div class="cuadroTexto">
+                <div class="campoTexto">
+                    <label asp-for="PasswordConfirm">Confirm PW:</label>
+                    <input asp-for="PasswordConfirm">
+                </div>
+                <span asp-validation-for="PasswordConfirm"></span>
+            </div>
+            <div class="cuadroBoton">
+                <button class="boton">Register</button>
+            </div>
+        </div>
+    </div>
+</form>

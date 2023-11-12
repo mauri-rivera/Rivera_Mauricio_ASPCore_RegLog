@@ -1,0 +1,139 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    margin: 5.5vh 10vw;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.cuadroAcceso {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.columnaAcceso {
+    display: flex;
+    flex-direction: column;
+}
+
+.cuadroFormularioRegistro,
+.cuadroFormularioLogin {
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 0;
+    margin-top: 1.25vh;
+    gap: .5vh;
+}
+
+.formulario {
+    margin-top: 4vh;
+}
+
+    .formulario h2 {
+        font-size: 2rem;
+    }
+
+.cuadroTexto {
+    display: flex;
+    margin: 1.5vh 0;
+    flex-direction: column;
+    gap: .5vh;
+}
+
+.campoTexto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4vw;
+}
+
+.cuadroTexto input {
+    display: flex;
+    padding: 1vh 1.5vw;
+    font-size: large;
+    border: 3px solid black;
+}
+
+.cuadroTexto label {
+    display: flex;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.cuadroTexto span {
+    display: flex;
+    color: red;
+    justify-content: flex-end;
+    height: 2vh;
+}
+
+.boton {
+    padding: 1.5vh 2vw;
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    box-shadow: 5px 5px black;
+    font-size: larger;
+}
+
+.cuadroBoton {
+    display: flex;
+    justify-content: left;
+    margin-top: 1vh;
+}
+
+.barra {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2vh 0;
+    align-items: baseline;
+    border: 6px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.seccion {
+    display: flex;
+    gap: 5vw;
+    align-items: baseline;
+}
+
+.logout a {
+    display: flex;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.mensaje {
+    display: flex;
+    justify-content: center;
+}
+
+.mensaje span{
+    padding: 20% 20%;
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
